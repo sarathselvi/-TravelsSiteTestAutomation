@@ -17,6 +17,7 @@ public class ListenerTest extends TestBase implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
+		System.out.println("Started:" + result.getName());
 
 	}
 
