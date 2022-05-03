@@ -24,6 +24,7 @@ public class AdminLoginPageTest extends TestBase {
 	public void setup() {
 		initialization(url);
 		AdminLoginPage = new AdminLoginPage();
+		System.out.println("Test");
 
 	}
 
