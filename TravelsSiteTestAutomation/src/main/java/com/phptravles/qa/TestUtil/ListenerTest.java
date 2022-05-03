@@ -22,9 +22,7 @@ public class ListenerTest extends TestBase implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println(result.getMethod().getTestClass().getName());
-
-	
+			
 		TakesScreenshot t = (TakesScreenshot) AdminLoginPage.driver;
 		File srcFile = t.getScreenshotAs(OutputType.FILE);
 
@@ -39,6 +37,17 @@ public class ListenerTest extends TestBase implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		
+		TakesScreenshot t = (TakesScreenshot) AdminLoginPage.driver;
+		File srcFile = t.getScreenshotAs(OutputType.FILE);
+
+		try {
+
+			FileUtils.copyFile(srcFile, new File("./ScreenShot/Failure/" + result.getName() + ".jpg"));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 
 	}
 
