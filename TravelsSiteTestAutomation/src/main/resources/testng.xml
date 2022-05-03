@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PHP Travels Website Automation Test Suite">
+
+
+	<test name="PHP Travles Login Test Cases">
+		<classes>
+			<class name="com.phptravels.qa.admintc.AdminloginPageTest"></class>
+		</classes>
+	</test>
+</suite>
