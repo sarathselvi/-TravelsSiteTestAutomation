@@ -1,43 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 3, Errors: 0, Skipped: 7, Time elapsed: 172.165 s <<< FAILURE! - in TestSuite
-beforeMethod(com.phptravels.qa.admintc.AdminAddHotelPageTest)  Time elapsed: 35.447 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad
-	at com.phptravels.qa.admintc.AdminAddHotelPageTest.beforeMethod(AdminAddHotelPageTest.java:34)
+Tests run: 28, Failures: 5, Errors: 0, Skipped: 23, Time elapsed: 1.979 s <<< FAILURE! - in TestSuite
+setup(com.phptravels.qa.admintc.AdminHomePageTest)  Time elapsed: 1.297 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.phptravels.qa.admintc.AdminHomePageTest.setup(AdminHomePageTest.java:26)
 
-clickHotelPage(com.phptravels.qa.admintc.AdminHomePageTest)  Time elapsed: 26.49 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f49d89eedf5718cb40b8e216d39179c, clickElement {id=46eeded6-8715-4826-9b5e-c907c1326890}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:61041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61041/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (4f49d89eedf5718cb40b8e216d39179c)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 4f49d89eedf5718cb40b8e216d39179c
-	at com.phptravels.qa.admintc.AdminHomePageTest.clickHotelPage(AdminHomePageTest.java:40)
+setup(com.phptravels.qa.admintc.AdminHotelPageTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:28)
 
-setup(com.phptravels.qa.admintc.AdminHotelPageTest)  Time elapsed: 58.447 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b76158aeb818198fe9de065c2d82601, clickElement {id=7bfb6b8e-e2ca-4f1b-80a5-0dd5373a1a48}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61064/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9b76158aeb818198fe9de065c2d82601)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 9b76158aeb818198fe9de065c2d82601
-	at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:31)
+setup(com.phptravels.qa.admintc.AdminLoginPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.phptravels.qa.admintc.AdminLoginPageTest.setup(AdminLoginPageTest.java:25)
+
+setUp(com.phptravels.qa.customertc.CustomerHomePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
+
+setUp(com.phptravels.qa.customertc.CustomerLoginTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.phptravels.qa.customertc.CustomerLoginTest.setUp(CustomerLoginTest.java:24)
 

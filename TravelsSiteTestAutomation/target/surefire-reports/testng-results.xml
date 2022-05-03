@@ -1,92 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="12" passed="7" failed="1" skipped="3">
+<testng-results ignored="1" total="11" passed="0" failed="0" skipped="10">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-03T12:45:39 IST" name="Surefire suite" finished-at="2022-05-03T12:48:31 IST" duration-ms="171431">
+  <suite started-at="2022-05-03T14:27:48 IST" name="Surefire suite" finished-at="2022-05-03T14:27:48 IST" duration-ms="243">
     <groups>
     </groups>
-    <test started-at="2022-05-03T12:45:39 IST" name="Surefire test" finished-at="2022-05-03T12:48:31 IST" duration-ms="171431">
+    <test started-at="2022-05-03T14:27:48 IST" name="Surefire test" finished-at="2022-05-03T14:27:48 IST" duration-ms="243">
       <class name="com.phptravels.qa.admintc.AdminLoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:18 IST" name="setup" finished-at="2022-05-03T12:47:23 IST" duration-ms="4647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="validateAdminLoginPage()[pri:1, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:23 IST" name="validateAdminLoginPage" finished-at="2022-05-03T12:47:23 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAdminLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:23 IST" name="tearDown" finished-at="2022-05-03T12:47:23 IST" duration-ms="617" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:23 IST" name="setup" finished-at="2022-05-03T12:47:28 IST" duration-ms="4707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginAdmin()[pri:2, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:28 IST" name="loginAdmin" finished-at="2022-05-03T12:47:28 IST" duration-ms="448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAdmin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@7748410a]" started-at="2022-05-03T12:47:29 IST" name="tearDown" finished-at="2022-05-03T12:47:29 IST" duration-ms="600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.phptravels.qa.admintc.AdminLoginPageTest -->
-      <class name="com.phptravels.qa.admintc.AdminHomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminHomePageTest@484970b0]" started-at="2022-05-03T12:46:14 IST" name="setup" finished-at="2022-05-03T12:46:20 IST" duration-ms="5293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickHotelPage()[pri:2, instance:com.phptravels.qa.admintc.AdminHomePageTest@484970b0]" started-at="2022-05-03T12:46:20 IST" name="clickHotelPage" finished-at="2022-05-03T12:46:46 IST" duration-ms="26486" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f49d89eedf5718cb40b8e216d39179c, clickElement {id=46eeded6-8715-4826-9b5e-c907c1326890}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:61041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61041/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (4f49d89eedf5718cb40b8e216d39179c)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 4f49d89eedf5718cb40b8e216d39179c]]>
-            </message>
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="setup" finished-at="2022-05-03T14:27:48 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4f49d89eedf5718cb40b8e216d39179c, clickElement {id=46eeded6-8715-4826-9b5e-c907c1326890}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:61041}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61041/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (4f49d89eedf5718cb40b8e216d39179c)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 4f49d89eedf5718cb40b8e216d39179c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminHomePageTest.clickHotelPage(AdminHomePageTest.java:40)
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminLoginPageTest.setup(AdminLoginPageTest.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
@@ -116,137 +52,619 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateAdminLoginPage()[pri:1, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="validateAdminLoginPage" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminLoginPageTest.setup(AdminLoginPageTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="setup" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginAdmin()[pri:2, instance:com.phptravels.qa.admintc.AdminLoginPageTest@50caa560]" started-at="2022-05-03T14:27:48 IST" name="loginAdmin" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminLoginPageTest.setup(AdminLoginPageTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+      </class> <!-- com.phptravels.qa.admintc.AdminLoginPageTest -->
+      <class name="com.phptravels.qa.admintc.AdminHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminHomePageTest@2f54a33d]" started-at="2022-05-03T14:27:48 IST" name="setup" finished-at="2022-05-03T14:27:48 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminHomePageTest.setup(AdminHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickHotelPage()[pri:2, instance:com.phptravels.qa.admintc.AdminHomePageTest@2f54a33d]" started-at="2022-05-03T14:27:48 IST" name="clickHotelPage" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminHomePageTest.setup(AdminHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickHotelPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminHomePageTest@484970b0]" started-at="2022-05-03T12:46:46 IST" name="tearDown" finished-at="2022-05-03T12:46:47 IST" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminHomePageTest@2f54a33d]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravels.qa.admintc.AdminHomePageTest -->
       <class name="com.phptravels.qa.customertc.CustomerHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:29 IST" name="setUp" finished-at="2022-05-03T12:47:38 IST" duration-ms="8854" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="setUp" finished-at="2022-05-03T14:27:48 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateCustomerHomePageTitle()[pri:1, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:38 IST" name="validateCustomerHomePageTitle" finished-at="2022-05-03T12:47:38 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="validateCustomerHomePageTitle()[pri:1, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="validateCustomerHomePageTitle" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCustomerHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:38 IST" name="tearDown" finished-at="2022-05-03T12:47:39 IST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:39 IST" name="setUp" finished-at="2022-05-03T12:47:46 IST" duration-ms="6785" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="setUp" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateCustomerHomePageWelcomeMsg()[pri:2, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:46 IST" name="validateCustomerHomePageWelcomeMsg" finished-at="2022-05-03T12:47:46 IST" duration-ms="24" status="PASS">
+        <test-method signature="validateCustomerHomePageWelcomeMsg()[pri:2, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="validateCustomerHomePageWelcomeMsg" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCustomerHomePageWelcomeMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:46 IST" name="tearDown" finished-at="2022-05-03T12:47:46 IST" duration-ms="585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:47:46 IST" name="setUp" finished-at="2022-05-03T12:48:12 IST" duration-ms="25224" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="setUp" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnAddFundsPage()[pri:3, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:48:12 IST" name="clickOnAddFundsPage" finished-at="2022-05-03T12:48:13 IST" duration-ms="1307" status="PASS">
+        <test-method signature="clickOnAddFundsPage()[pri:3, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="clickOnAddFundsPage" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnAddFundsPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@740773a3]" started-at="2022-05-03T12:48:13 IST" name="tearDown" finished-at="2022-05-03T12:48:14 IST" duration-ms="634" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerHomePageTest@5ab9e72c]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravels.qa.customertc.CustomerHomePageTest -->
       <class name="com.phptravels.qa.customertc.CustomerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:14 IST" name="setUp" finished-at="2022-05-03T12:48:20 IST" duration-ms="5892" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="setUp" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerLoginTest.setUp(CustomerLoginTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:20 IST" name="customerLoginTitleTest" finished-at="2022-05-03T12:48:20 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="setUp" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- customerLoginTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:20 IST" name="tearDown" finished-at="2022-05-03T12:48:20 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:20 IST" name="setUp" finished-at="2022-05-03T12:48:27 IST" duration-ms="6953" status="PASS">
+        <test-method signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="customerLoginTitleTest" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerLoginTest.setUp(CustomerLoginTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateLoginCredentialsTest()[pri:2, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:27 IST" name="validateLoginCredentialsTest" finished-at="2022-05-03T12:48:30 IST" duration-ms="3779" status="PASS">
+        </test-method> <!-- customerLoginTitleTest -->
+        <test-method signature="validateLoginCredentialsTest()[pri:2, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="validateLoginCredentialsTest" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.customertc.CustomerLoginTest.setUp(CustomerLoginTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginCredentialsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@37f1104d]" started-at="2022-05-03T12:48:31 IST" name="tearDown" finished-at="2022-05-03T12:48:31 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@1d8bd0de]" started-at="2022-05-03T14:27:48 IST" name="tearDown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravels.qa.customertc.CustomerLoginTest -->
       <class name="com.phptravels.qa.admintc.AdminAddHotelPageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:45:40 IST" name="beforeMethod" finished-at="2022-05-03T12:46:14 IST" duration-ms="34391" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method signature="enterHotelDetails(java.lang.String,java.lang.String)[pri:1, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@1dac5ef]" started-at="2022-05-03T14:27:48 IST" name="enterHotelDetails" data-provider="getTestData" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad]]>
+              <![CDATA[java.lang.NullPointerException]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminAddHotelPageTest.beforeMethod(AdminAddHotelPageTest.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:153)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:767)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:704)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:70)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:49)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:904)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -271,268 +689,31 @@ at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="enterHotelDetails(java.lang.String,java.lang.String)[pri:1, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:46:14 IST" name="enterHotelDetails" data-provider="getTestData" finished-at="2022-05-03T12:46:14 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Auroville]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pondichery]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminAddHotelPageTest.beforeMethod(AdminAddHotelPageTest.java:34)
+Caused by: java.lang.NullPointerException
+at com.phptravles.qa.util.TestUtil.getTestData(TestUtil.java:51)
+at com.phptravels.qa.admintc.AdminAddHotelPageTest.getTestData(AdminAddHotelPageTest.java:42)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterHotelDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:46:14 IST" name="afterMethod" finished-at="2022-05-03T12:46:14 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:46:14 IST" name="beforeMethod" finished-at="2022-05-03T12:46:14 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="enterHotelDetails(java.lang.String,java.lang.String)[pri:1, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:46:14 IST" name="enterHotelDetails" data-provider="getTestData" finished-at="2022-05-03T12:46:14 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[NorthGate]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Madurai]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a0178e00a0e9b6d009463b288402aaad, clickElement {id=ccd7a2cb-c4a5-4f94-b793-1e8519efaee0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:61024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61024/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (a0178e00a0e9b6d009463b288402aaad)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: a0178e00a0e9b6d009463b288402aaad
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminAddHotelPageTest.beforeMethod(AdminAddHotelPageTest.java:34)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterHotelDetails -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.phptravels.qa.admintc.AdminAddHotelPageTest@ed7f8b4]" started-at="2022-05-03T12:46:14 IST" name="afterMethod" finished-at="2022-05-03T12:46:14 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- com.phptravels.qa.admintc.AdminAddHotelPageTest -->
       <class name="com.phptravels.qa.admintc.AdminHotelPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminHotelPageTest@4470f8a6]" started-at="2022-05-03T12:46:47 IST" name="setup" finished-at="2022-05-03T12:47:18 IST" duration-ms="31360" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b76158aeb818198fe9de065c2d82601, clickElement {id=7bfb6b8e-e2ca-4f1b-80a5-0dd5373a1a48}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61064/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9b76158aeb818198fe9de065c2d82601)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 9b76158aeb818198fe9de065c2d82601]]>
-            </message>
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminHotelPageTest@65b3f4a4]" started-at="2022-05-03T14:27:48 IST" name="setup" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b76158aeb818198fe9de065c2d82601, clickElement {id=7bfb6b8e-e2ca-4f1b-80a5-0dd5373a1a48}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61064/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9b76158aeb818198fe9de065c2d82601)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 9b76158aeb818198fe9de065c2d82601
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:31)
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -572,54 +753,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addHotel()[pri:1, instance:com.phptravels.qa.admintc.AdminHotelPageTest@4470f8a6]" started-at="2022-05-03T12:47:18 IST" name="addHotel" finished-at="2022-05-03T12:47:18 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b76158aeb818198fe9de065c2d82601, clickElement {id=7bfb6b8e-e2ca-4f1b-80a5-0dd5373a1a48}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61064/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9b76158aeb818198fe9de065c2d82601)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 9b76158aeb818198fe9de065c2d82601]]>
-            </message>
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.phptravels.qa.admintc.AdminHotelPageTest@65b3f4a4]" started-at="2022-05-03T14:27:48 IST" name="teardown" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="addHotel()[pri:1, instance:com.phptravels.qa.admintc.AdminHotelPageTest@65b3f4a4]" started-at="2022-05-03T14:27:48 IST" name="addHotel" finished-at="2022-05-03T14:27:48 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=100.0.4896.127)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-7KBB9M5', ip: '192.168.161.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9b76158aeb818198fe9de065c2d82601, clickElement {id=7bfb6b8e-e2ca-4f1b-80a5-0dd5373a1a48}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61064}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61064/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (9b76158aeb818198fe9de065c2d82601)] -> xpath: //a[@aria-controls='hotelsmodule']]
-Session ID: 9b76158aeb818198fe9de065c2d82601
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-at com.sun.proxy.$Proxy16.click(Unknown Source)
-at com.phptravels.qa.adminpages.AdminHomePage.clickHotelPage(AdminHomePage.java:43)
-at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:31)
+              <![CDATA[java.lang.NullPointerException
+at com.phptravels.qa.base.TestBase.initialization(TestBase.java:40)
+at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -659,14 +806,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addHotel -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.phptravels.qa.admintc.AdminHotelPageTest@4470f8a6]" started-at="2022-05-03T12:47:18 IST" name="teardown" finished-at="2022-05-03T12:47:18 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.phptravels.qa.admintc.AdminHotelPageTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

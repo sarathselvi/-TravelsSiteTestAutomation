@@ -10,6 +10,14 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.phptravels.qa.admintc.AdminHomePageTest -->
+      <class name="com.phptravels.qa.customertc.CustomerLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateLoginCredentialsTest"/>
+          <include name="tearDown"/>
+          <include name="customerLoginTitleTest"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.customertc.CustomerLoginTest -->
       <class name="com.phptravels.qa.admintc.AdminAddHotelPageTest">
         <methods>
           <include name="enterHotelDetails"/>
@@ -24,6 +32,23 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.phptravels.qa.admintc.AdminHotelPageTest -->
+      <class name="com.phptravels.qa.admintc.AdminLoginPageTest">
+        <methods>
+          <include name="loginAdmin"/>
+          <include name="validateAdminLoginPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.admintc.AdminLoginPageTest -->
+      <class name="com.phptravels.qa.customertc.CustomerHomePageTest">
+        <methods>
+          <include name="clickOnAddFundsPage"/>
+          <include name="validateCustomerHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCustomerHomePageWelcomeMsg"/>
+        </methods>
+      </class> <!-- com.phptravels.qa.customertc.CustomerHomePageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
