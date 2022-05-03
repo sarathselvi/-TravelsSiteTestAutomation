@@ -30,7 +30,7 @@ public class CustomerLoginTest extends TestBase {
 	public void customerLoginTitleTest() {
 
 		String title = CustomerLoginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Login - PHPTRAVELS");
+		Assert.assertEquals(title, "Login - PHPTRAVELSS");
 
 	}
 

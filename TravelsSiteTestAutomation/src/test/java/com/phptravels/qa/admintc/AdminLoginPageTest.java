@@ -29,7 +29,7 @@ public class AdminLoginPageTest extends TestBase {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, retryAnalyzer = analyzer.RetryAnalyzer.class)
 	public void validateAdminLoginPage() {
 		Assert.assertEquals(AdminLoginPage.validateTitle(), "Administator Login");
 

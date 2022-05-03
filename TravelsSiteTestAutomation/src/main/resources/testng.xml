@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="PHP Travels Website Automation Test Suite">
+	<listeners>
+		<listener class-name="analyzer.RetryTransformer"></listener>
+
+	</listeners>
 
 
 	<test name="PHP Travles Login Test Cases">
 		<classes>
-			<class name="com.phptravels.qa.admintc.AdminloginPageTest"></class>
+			
+			<class name="com.phptravels.qa.customertc.CustomerLoginTest"></class>
+			<class name="com.phptravels.qa.admintc.AdminLoginPageTest"></class>
 		</classes>
 	</test>
 </suite>

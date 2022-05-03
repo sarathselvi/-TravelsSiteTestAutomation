@@ -45,7 +45,7 @@ public class AdminAddHotelPageTest extends TestBase {
 
 	}
 
-	@Test(priority = 1, dataProvider = "getTestData")
+	@Test(priority = 1, dataProvider = "getTestData", retryAnalyzer = analyzer.RetryAnalyzer.class)
 	public void enterHotelDetails(String hotelName, String hotelDesc) throws InterruptedException {
 
 		AdminAddHotelPage.enterHotelDetails(hotelName, hotelDesc);
