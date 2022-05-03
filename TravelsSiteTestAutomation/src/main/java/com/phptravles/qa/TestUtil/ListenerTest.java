@@ -22,7 +22,7 @@ public class ListenerTest extends TestBase implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-			
+
 		TakesScreenshot t = (TakesScreenshot) AdminLoginPage.driver;
 		File srcFile = t.getScreenshotAs(OutputType.FILE);
 
@@ -37,7 +37,7 @@ public class ListenerTest extends TestBase implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+
 		TakesScreenshot t = (TakesScreenshot) AdminLoginPage.driver;
 		File srcFile = t.getScreenshotAs(OutputType.FILE);
 
@@ -48,12 +48,11 @@ public class ListenerTest extends TestBase implements ITestListener {
 			e.printStackTrace();
 		}
 
-
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		// TODO Auto-generated method stub
-
+		System.out.println("Skipped:" + result.getName());
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
