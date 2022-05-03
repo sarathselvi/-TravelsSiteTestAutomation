@@ -44,9 +44,7 @@ public class TestBase {
 			System.setProperty("webdriver.gecko.driver", "./src/test/resources/geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
-//		Dimension d = new Dimension(1382, 744);
-//		// Resize the current window to the given dimension
-//		driver.manage().window().setSize(d);
+
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TestUtil.IMPLICITLY_WAIT));

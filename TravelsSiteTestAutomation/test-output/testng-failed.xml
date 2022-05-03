@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.phptravels.qa.customertc.CustomerLoginTest">
+      <class name="com.phptravels.qa.admintc.AdminAddHotelPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="validateLoginCredentialsTest"/>
-          <include name="tearDown"/>
-          <include name="customerLoginTitleTest"/>
+          <include name="enterHotelDetails" invocation-numbers="0 1"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.phptravels.qa.customertc.CustomerLoginTest -->
+      </class> <!-- com.phptravels.qa.admintc.AdminAddHotelPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
