@@ -1,5 +1,6 @@
 package com.phptravels.qa.admintc;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,6 +16,7 @@ public class AdminLoginPageTest extends TestBase {
 	AdminLoginPage AdminLoginPage;
 	AdminHomePage AdminHomePage;
 	String url = "https://www.phptravels.net/api/admin";
+	Logger log = Logger.getLogger(AdminLoginPageTest.class);
 
 	public AdminLoginPageTest() {
 		super();
@@ -24,18 +26,22 @@ public class AdminLoginPageTest extends TestBase {
 	public void setup() {
 		initialization(url);
 		AdminLoginPage = new AdminLoginPage();
-		System.out.println("Test");
 
 	}
 
 	@Test(priority = 1)
 	public void validateAdminLoginPage() {
 		Assert.assertEquals(AdminLoginPage.validateTitle(), "Administator Login");
+
 	}
 
 	@Test(priority = 2)
 	public void loginAdmin() {
 		AdminHomePage = AdminLoginPage.loginAdmin(prop.getProperty("username"), prop.getProperty("password"));
+		log.info("logging into Admin Page");
+		log.warn("Warn:" + AdminHomePage);
+		log.debug("Debug:" + AdminHomePage);
+		log.fatal("fatal" + AdminHomePage);
 
 	}
 
