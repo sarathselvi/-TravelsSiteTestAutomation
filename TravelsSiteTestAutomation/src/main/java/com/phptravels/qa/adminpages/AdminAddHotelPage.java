@@ -48,26 +48,27 @@ public class AdminAddHotelPage extends TestBase {
 
 	public void enterHotelDetails(String hoteName, String hotelDesc) throws InterruptedException {
 		hotelname.sendKeys(hoteName);
-		//Thread.sleep(10000);
+		Thread.sleep(3000);
 
 		driver.switchTo().frame(0);
 
 		JavascriptExecutor js = (JavascriptExecutor) driver;
+
 		js.executeScript("document.getElementsByTagName('p')[0].innerHTML ='" + hotelDesc + "'");
 
 		driver.switchTo().defaultContent();
 
 		Actions action = new Actions(driver);
-		//Thread.sleep(2000);
+		// Thread.sleep(2000);
 		action.moveToElement(locationField).build().perform();
-		//Thread.sleep(2000);
+		// Thread.sleep(2000);
 		action.click(locationField).build().perform();
-		//Thread.sleep(2000);
+		// Thread.sleep(2000);
 		locationText.sendKeys("Madurai");
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //		wait.until(ExpectedConditions.elementToBeClickable(locationDropDown));
 		locationDropDown.click();
-		//Thread.sleep(2000);
+		// Thread.sleep(2000);
 
 		js.executeScript("arguments[0].click();", addButton);
 	}
