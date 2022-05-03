@@ -6,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.phptravels.qa.base.TestBase;
 
+import io.qameta.allure.Step;
+
 public class CustomerLoginPage extends TestBase {
 
 	// Page Factory - OR:
@@ -25,10 +27,12 @@ public class CustomerLoginPage extends TestBase {
 	}
 
 	// Actions:
+	@Step("Getting Login  Page Title")
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
 
+	@Step("Login with username {0} and password{1}")
 	public CustomerHomePage validateLoginCredentials(String un, String pw) {
 		username.sendKeys(un);
 		password.sendKeys(pw);
