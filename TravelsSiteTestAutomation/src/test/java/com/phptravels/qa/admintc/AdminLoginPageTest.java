@@ -11,7 +11,7 @@ import com.phptravels.qa.adminpages.AdminHomePage;
 import com.phptravels.qa.adminpages.AdminLoginPage;
 import com.phptravels.qa.base.TestBase;
 
-@Listeners(com.phptravles.qa.TestUtil.ListenerTest.class)
+@Listeners(com.phptravels.qa.TestUtil.ListenerTest.class)
 public class AdminLoginPageTest extends TestBase {
 	AdminLoginPage AdminLoginPage;
 	AdminHomePage AdminHomePage;

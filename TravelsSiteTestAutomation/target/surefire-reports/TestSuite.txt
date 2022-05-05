@@ -1,24 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 5, Errors: 0, Skipped: 23, Time elapsed: 1.979 s <<< FAILURE! - in TestSuite
-setup(com.phptravels.qa.admintc.AdminHomePageTest)  Time elapsed: 1.297 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.phptravels.qa.admintc.AdminHomePageTest.setup(AdminHomePageTest.java:26)
-
-setup(com.phptravels.qa.admintc.AdminHotelPageTest)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.phptravels.qa.admintc.AdminHotelPageTest.setup(AdminHotelPageTest.java:28)
-
-setup(com.phptravels.qa.admintc.AdminLoginPageTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.phptravels.qa.admintc.AdminLoginPageTest.setup(AdminLoginPageTest.java:25)
-
-setUp(com.phptravels.qa.customertc.CustomerHomePageTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.phptravels.qa.customertc.CustomerHomePageTest.setUp(CustomerHomePageTest.java:26)
-
-setUp(com.phptravels.qa.customertc.CustomerLoginTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-	at com.phptravels.qa.customertc.CustomerLoginTest.setUp(CustomerLoginTest.java:24)
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 48.895 s <<< FAILURE! - in TestSuite
+customerLoginTitleTest(com.phptravels.qa.customertc.CustomerLoginTest)  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.AssertionError: expected [Login - PHPTRAVELSS] but found [Login - PHPTRAVELS]
+	at com.phptravels.qa.customertc.CustomerLoginTest.customerLoginTitleTest(CustomerLoginTest.java:43)
 

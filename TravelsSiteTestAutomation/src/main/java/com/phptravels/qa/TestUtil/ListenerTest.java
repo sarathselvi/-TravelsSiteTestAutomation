@@ -1,4 +1,4 @@
-package com.phptravles.qa.TestUtil;
+package com.phptravels.qa.TestUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,8 @@ public class ListenerTest extends TestBase implements ITestListener {
 		}
 
 	}
-
+	
+	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 

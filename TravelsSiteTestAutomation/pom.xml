@@ -16,7 +16,7 @@
 		<selenium.version>4.1.4</selenium.version>
 		<testng.version>7.5</testng.version>
 		<apachepoi.version>3.9</apachepoi.version>
-		<aspectj.version>2.17.3</aspectj.version>
+		<aspectj.version>1.9.9.1</aspectj.version>
 	</properties>
 
 	<dependencies>
@@ -100,7 +100,7 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
-			<version>1.9.9.1</version>
+			<version>${aspectj.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 

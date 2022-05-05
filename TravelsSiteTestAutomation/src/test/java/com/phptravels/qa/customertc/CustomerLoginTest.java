@@ -3,6 +3,7 @@ package com.phptravels.qa.customertc;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.phptravels.qa.base.TestBase;
@@ -14,6 +15,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
+@Listeners(com.phptravels.qa.TestUtil.AllureReportListener.class)
 public class CustomerLoginTest extends TestBase {
 	String url = "https://www.phptravels.net/login";
 	CustomerLoginPage CustomerLoginPage;
@@ -38,7 +40,7 @@ public class CustomerLoginTest extends TestBase {
 	public void customerLoginTitleTest() {
 
 		String title = CustomerLoginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "Login - PHPTRAVELS");
+		Assert.assertEquals(title, "Login - PHPTRAVELSS");
 
 	}
 

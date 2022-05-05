@@ -3,6 +3,7 @@
 <suite name="PHP Travels Website Automation Test Suite">
 	<listeners>
 		<listener class-name="analyzer.RetryTransformer"></listener>
+		<listener class-name="com.phptravels.qa.TestUtil.AllureReportListener"></listener>
 
 	</listeners>
 

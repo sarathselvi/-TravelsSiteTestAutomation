@@ -16,6 +16,7 @@ import com.phptravles.qa.util.TestUtil;
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
+	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 
 	public TestBase() {
 
@@ -50,6 +51,13 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TestUtil.PAGE_LOAD_TIMEOUT));
 
 		driver.get(url);
+		tdriver.set(driver);
 
 	}
+
+	public static synchronized WebDriver getDriver() {
+
+		return tdriver.get();
+	}
+
 }
