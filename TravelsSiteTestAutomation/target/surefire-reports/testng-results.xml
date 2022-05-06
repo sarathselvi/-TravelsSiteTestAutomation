@@ -2,42 +2,42 @@
 <testng-results retried="2" ignored="0" total="6" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-04T21:18:58 IST" name="PHP Travels Website Automation Test Suite" finished-at="2022-05-04T21:19:45 IST" duration-ms="47064">
+  <suite started-at="2022-05-06T22:40:19 IST" name="PHP Travels Website Automation Test Suite" finished-at="2022-05-06T22:41:12 IST" duration-ms="53019">
     <groups>
     </groups>
-    <test started-at="2022-05-04T21:18:58 IST" name="PHP Travles Login Test Cases" finished-at="2022-05-04T21:19:45 IST" duration-ms="47064">
+    <test started-at="2022-05-06T22:40:19 IST" name="PHP Travles Login Test Cases" finished-at="2022-05-06T22:41:12 IST" duration-ms="53019">
       <class name="com.phptravels.qa.admintc.AdminLoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:32 IST" name="setup" finished-at="2022-05-04T21:19:38 IST" duration-ms="5277" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:40:55 IST" name="setup" finished-at="2022-05-06T22:41:00 IST" duration-ms="5146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateAdminLoginPage()[pri:1, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:38 IST" name="validateAdminLoginPage" finished-at="2022-05-04T21:19:38 IST" duration-ms="15" status="PASS">
+        <test-method signature="validateAdminLoginPage()[pri:1, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:41:00 IST" name="validateAdminLoginPage" finished-at="2022-05-06T22:41:00 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAdminLoginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:38 IST" name="tearDown" finished-at="2022-05-04T21:19:39 IST" duration-ms="692" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:41:00 IST" name="tearDown" finished-at="2022-05-06T22:41:01 IST" duration-ms="727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:39 IST" name="setup" finished-at="2022-05-04T21:19:44 IST" duration-ms="5233" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:41:01 IST" name="setup" finished-at="2022-05-06T22:41:06 IST" duration-ms="5158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginAdmin()[pri:2, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:44 IST" name="loginAdmin" finished-at="2022-05-04T21:19:44 IST" duration-ms="449" status="PASS">
+        <test-method signature="loginAdmin()[pri:2, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:41:06 IST" name="loginAdmin" finished-at="2022-05-06T22:41:06 IST" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAdmin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@40e60ece]" started-at="2022-05-04T21:19:44 IST" name="tearDown" finished-at="2022-05-04T21:19:45 IST" duration-ms="673" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.admintc.AdminLoginPageTest@abff8b7]" started-at="2022-05-06T22:41:11 IST" name="tearDown" finished-at="2022-05-06T22:41:12 IST" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.phptravels.qa.admintc.AdminLoginPageTest -->
       <class name="com.phptravels.qa.customertc.CustomerLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:18:58 IST" name="setUp" finished-at="2022-05-04T21:19:07 IST" duration-ms="8918" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:19 IST" name="setUp" finished-at="2022-05-06T22:40:33 IST" duration-ms="14541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:07 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-04T21:19:07 IST" duration-ms="76" status="SKIP">
+        <test-method retried="true" signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:34 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-06T22:40:34 IST" duration-ms="788" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login - PHPTRAVELSS] but found [Login - PHPTRAVELS]]]>
@@ -89,15 +89,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLoginTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:07 IST" name="tearDown" finished-at="2022-05-04T21:19:08 IST" duration-ms="816" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:34 IST" name="tearDown" finished-at="2022-05-06T22:40:35 IST" duration-ms="894" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:08 IST" name="setUp" finished-at="2022-05-04T21:19:14 IST" duration-ms="5503" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:35 IST" name="setUp" finished-at="2022-05-06T22:40:40 IST" duration-ms="4276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:14 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-04T21:19:14 IST" duration-ms="12" status="SKIP">
+        <test-method retried="true" signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:40 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-06T22:40:40 IST" duration-ms="25" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login - PHPTRAVELSS] but found [Login - PHPTRAVELS]]]>
@@ -149,15 +149,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLoginTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:14 IST" name="tearDown" finished-at="2022-05-04T21:19:14 IST" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:40 IST" name="tearDown" finished-at="2022-05-06T22:40:40 IST" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:14 IST" name="setUp" finished-at="2022-05-04T21:19:20 IST" duration-ms="5457" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:40 IST" name="setUp" finished-at="2022-05-06T22:40:45 IST" duration-ms="4446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:20 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-04T21:19:20 IST" duration-ms="15" status="FAIL">
+        <test-method signature="customerLoginTitleTest()[pri:1, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:45 IST" name="customerLoginTitleTest" description="verifying login page title test" finished-at="2022-05-06T22:40:45 IST" duration-ms="8" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login - PHPTRAVELSS] but found [Login - PHPTRAVELS]]]>
@@ -209,19 +209,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerLoginTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:20 IST" name="tearDown" finished-at="2022-05-04T21:19:21 IST" duration-ms="688" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:46 IST" name="tearDown" finished-at="2022-05-06T22:40:47 IST" duration-ms="807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:21 IST" name="setUp" finished-at="2022-05-04T21:19:29 IST" duration-ms="7527" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:47 IST" name="setUp" finished-at="2022-05-06T22:40:51 IST" duration-ms="4318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginCredentialsTest()[pri:2, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:29 IST" name="validateLoginCredentialsTest" description=" login page check credentials test" finished-at="2022-05-04T21:19:31 IST" duration-ms="2704" status="PASS">
+        <test-method signature="validateLoginCredentialsTest()[pri:2, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:51 IST" name="validateLoginCredentialsTest" description=" login page check credentials test" finished-at="2022-05-06T22:40:54 IST" duration-ms="2470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginCredentialsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@2216effc]" started-at="2022-05-04T21:19:32 IST" name="tearDown" finished-at="2022-05-04T21:19:32 IST" duration-ms="689" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.customertc.CustomerLoginTest@e1e2e5e]" started-at="2022-05-06T22:40:54 IST" name="tearDown" finished-at="2022-05-06T22:40:55 IST" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class TestUtil {
 	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICITLY_WAIT = 10;
+	public static long IMPLICITLY_WAIT = 50;
 
 	public static String TESTDATA_SHEET_PATH = "D:\\Sarath\\PracticePOM\\"
 			+ "TravelsSiteTestAutomation\\src\\main\\java\\com\\phptravels\\qa\\testdata\\PHPTravelsAdminTestDate.xlsx";

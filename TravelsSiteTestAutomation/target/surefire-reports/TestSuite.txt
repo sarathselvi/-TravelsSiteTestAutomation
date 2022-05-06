@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 48.895 s <<< FAILURE! - in TestSuite
-customerLoginTitleTest(com.phptravels.qa.customertc.CustomerLoginTest)  Time elapsed: 0.037 s  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 55.747 s <<< FAILURE! - in TestSuite
+customerLoginTitleTest(com.phptravels.qa.customertc.CustomerLoginTest)  Time elapsed: 0.018 s  <<< FAILURE!
 java.lang.AssertionError: expected [Login - PHPTRAVELSS] but found [Login - PHPTRAVELS]
 	at com.phptravels.qa.customertc.CustomerLoginTest.customerLoginTitleTest(CustomerLoginTest.java:43)
 

@@ -1,0 +1,10 @@
+com\phptravels\qa\admintc\AdminHotelPageTest.class
+com\phptravels\qa\customertc\CustomerLoginTest.class
+com\phptravels\qa\admintc\AdminHomePageTest.class
+com\phptravels\qa\customertc\CustomerHomePageTest.class
+analyzer\RetryAnalyzer.class
+com\phptravels\qa\admintc\TestElement.class
+com\phptravels\qa\customertc\CustomerAddFundsPageTest.class
+analyzer\RetryTransformer.class
+com\phptravels\qa\admintc\AdminLoginPageTest.class
+com\phptravels\qa\admintc\AdminAddHotelPageTest.class
